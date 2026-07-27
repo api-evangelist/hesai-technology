@@ -1,0 +1,59 @@
+generated: '2026-07-19'
+method: searched
+source: https://github.com/HesaiTechnology
+note: >-
+  Hesai does not publish a REST API or client libraries on npm/PyPI/Maven/NuGet/etc.
+  Its first-party developer surface is source-distributed C++ SDKs, ROS/ROS2 drivers,
+  and integration plugins hosted on the HesaiTechnology GitHub organization. Listed
+  here as official source-code packages (registry: github). Verified present on the
+  org's public repositories page.
+packages:
+  - language: cpp
+    registry: github
+    name: HesaiLidar_SDK_2.0
+    url: https://github.com/HesaiTechnology/HesaiLidar_SDK_2.0
+    install: git clone https://github.com/HesaiTechnology/HesaiLidar_SDK_2.0
+    official: true
+    description: C++ SDK for the latest Hesai lidar models.
+  - language: cpp
+    registry: github
+    name: HesaiLidar_General_SDK
+    url: https://github.com/HesaiTechnology/HesaiLidar_General_SDK
+    install: git clone https://github.com/HesaiTechnology/HesaiLidar_General_SDK
+    official: true
+    description: Development kit for PandarXT, PandarQT, Pandar64 and related models.
+  - language: cpp
+    registry: github
+    name: HesaiLidar_Swift_SDK
+    url: https://github.com/HesaiTechnology/HesaiLidar_Swift_SDK
+    install: git clone https://github.com/HesaiTechnology/HesaiLidar_Swift_SDK
+    official: true
+    description: C++ SDK for the Swift (Pandar128) lidar series.
+  - language: cpp
+    registry: github
+    name: HesaiLidar_ROS_2.0
+    url: https://github.com/HesaiTechnology/HesaiLidar_ROS_2.0
+    install: git clone https://github.com/HesaiTechnology/HesaiLidar_ROS_2.0
+    official: true
+    description: ROS/ROS2 driver supporting the latest Hesai lidar models.
+  - language: cpp
+    registry: github
+    name: HesaiLidar_General_ROS
+    url: https://github.com/HesaiTechnology/HesaiLidar_General_ROS
+    install: git clone https://github.com/HesaiTechnology/HesaiLidar_General_ROS
+    official: true
+    description: ROS driver for PandarXT, PandarQT, Pandar64 and related models.
+  - language: cpp
+    registry: github
+    name: HesaiLidar_DriveWorks_Plugin
+    url: https://github.com/HesaiTechnology/HesaiLidar_DriveWorks_Plugin
+    install: git clone https://github.com/HesaiTechnology/HesaiLidar_DriveWorks_Plugin
+    official: true
+    description: NVIDIA DriveWorks integration plugin for Hesai lidar.
+  - language: python
+    registry: github
+    name: API_Demo
+    url: https://github.com/HesaiTechnology/API_Demo
+    install: git clone https://github.com/HesaiTechnology/API_Demo
+    official: true
+    description: Python examples demonstrating device control/API usage.

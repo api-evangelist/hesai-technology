@@ -1,0 +1,28 @@
+# Hesai Technology
+
+> Hesai Technology is a global leader in 3D LiDAR perception, designing and manufacturing high-performance lidar sensors for autonomous driving, advanced driver-assistance systems (ADAS), and robotics. Its developer surface is source-distributed: C++ SDKs, ROS/ROS2 drivers, and integration plugins published on the HesaiTechnology GitHub organization. Hesai does not publish a public REST/HTTP API; integration is via device SDKs and point-cloud drivers.
+
+## Company
+
+- [Hesai Technology website](https://www.hesaitech.com): Global leader in 3D perception; lidar for autonomous vehicles, ADAS, and robotics.
+- [Developer portal](https://hesaitechnology.github.io/dev/): Developer documentation and resources for Hesai lidar integration.
+- [Downloads](https://www.hesaitech.com/downloads/): Firmware, manuals, and software downloads.
+- [Technical support](https://www.hesaitech.com/contact/#tech-support): Contact channel for technical support.
+- [Newsroom](https://www.hesaitech.com/newsroom/): Company news and announcements.
+- [Privacy policy](https://www.hesaitech.com/privacy-policy/)
+
+## SDKs and drivers
+
+- [HesaiLidar_SDK_2.0](https://github.com/HesaiTechnology/HesaiLidar_SDK_2.0): C++ SDK for the latest Hesai lidar models.
+- [HesaiLidar_General_SDK](https://github.com/HesaiTechnology/HesaiLidar_General_SDK): Development kit for PandarXT/PandarQT/Pandar64.
+- [HesaiLidar_Swift_SDK](https://github.com/HesaiTechnology/HesaiLidar_Swift_SDK): C++ SDK for the Swift (Pandar128) series.
+- [HesaiLidar_ROS_2.0](https://github.com/HesaiTechnology/HesaiLidar_ROS_2.0): ROS/ROS2 driver for the latest lidar models.
+- [HesaiLidar_DriveWorks_Plugin](https://github.com/HesaiTechnology/HesaiLidar_DriveWorks_Plugin): NVIDIA DriveWorks integration plugin.
+- [API_Demo](https://github.com/HesaiTechnology/API_Demo): Python examples for device control.
+- [HesaiTechnology GitHub organization](https://github.com/HesaiTechnology): All first-party SDKs, ROS drivers, and plugins.
+
+## Repo artifacts
+
+- [Packages catalog](https://raw.githubusercontent.com/api-evangelist/hesai-technology/refs/heads/main/packages/hesai-technology-packages.yml)
+- [Domain security profile](https://raw.githubusercontent.com/api-evangelist/hesai-technology/refs/heads/main/security/hesai-technology-domain-security.yml)
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/hesai-technology/refs/heads/main/apis.yml)
